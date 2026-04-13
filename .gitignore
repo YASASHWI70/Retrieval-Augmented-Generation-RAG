@@ -1,0 +1,69 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local vector stores / embeddings cache (common RAG layouts)
+chroma/
+.chroma/
+*.sqlite3
+faiss_index/
+*.index
+*.pkl
+*.pickle
+
+# Hugging Face / model caches (large)
+.cache/
+huggingface/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
