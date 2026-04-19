@@ -37,7 +37,8 @@ coverage.xml
 *.cover
 .hypothesis/
 
-.pdf
+*.pdf
+*.txt
 
 # Type checkers / linters
 .mypy_cache/
